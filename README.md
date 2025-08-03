@@ -28,26 +28,40 @@
   </li>
 </ul>
 
+<h2>Результаты работы программы</h2>
 
-результаты выполнения программы:
-<img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/9dd163c6-80bb-4558-9c91-943a44bcbecd" />
-<img width="1569" height="319" alt="image" src="https://github.com/user-attachments/assets/74a4b8bf-1d5d-4940-94ac-a31840226285" />
-System Information:
-  Python Version: 3.11.13
-  PyTorch Version: 2.6.0+cu124
-  Device: cpu
-  Operating System: Linux 6.1.123+
-  CPU: x86_64
+<p>
+  Ниже представлены результаты работы программы.
+</p>
 
-Model Summary:
-  Total parameters: 134691
-  Trainable parameters: 134691
-Total params: 134,691
-Trainable params: 134,691
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 1.22
-Params size (MB): 0.51
-Estimated Total Size (MB): 1.74
-----------------------------------------------------------------
+<h3>Изображения</h3>
+<p>
+  Сравнение оригинальных и восстановленных изображений.
+</p>
+<img src="https://github.com/user-attachments/assets/9dd163c6-80bb-4558-9c91-943a44bcbecd" alt="Оригинальные и восстановленные изображения" width="637" height="358">
+
+<p>
+  График loss-функции в процессе обучения.
+</p>
+<img src="https://github.com/user-attachments/assets/74a4b8bf-1d5d-4940-94ac-a31840226285" alt="График loss-функции" width="1569" height="319">
+
+<h3>Информация о системе</h3>
+<ul>
+  <li>Python Version: 3.11.13</li>
+  <li>PyTorch Version: 2.6.0+cu124</li>
+  <li>Device: cpu</li>
+  <li>Operating System: Linux 6.1.123+</li>
+  <li>CPU: x86_64</li>
+</ul>
+
+<h3>Краткое описание модели</h3>
+<ul>
+  <li>Total parameters: 134691</li>
+  <li>Trainable parameters: 134691</li>
+  <li>Non-trainable params: 0</li>
+  <li>Input size (MB): 0.01</li>
+  <li>Forward/backward pass size (MB): 1.22</li>
+  <li>Params size (MB): 0.51</li>
+  <li>Estimated Total Size (MB): 1.74</li>
+</ul>
+
